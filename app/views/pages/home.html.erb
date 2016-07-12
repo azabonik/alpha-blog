@@ -1,13 +1,8 @@
-<HTML>
-    <HEAD>
-        <TITLE>This is the home of my blog app</TITLE>
-    </HEAD>
-    <BODY BGCOLOR="FFFFFF">
-    <CENTER><IMG SRC="clouds.jpg" ALIGN="BOTTOM"> </CENTER>
-    <HR>
-        <H2>This site serves as an example page for Ruby on Rails</H2>
-        <%= link_to 'Alpha Blog', articles_path %> | <%= link_to 'About', about_path %>
-        </br><%= image_tag'rabbot.jpg'%>
-    <HR>
-    </BODY>
-</HTML>
+<div class="center jumbotron">
+  <div class="container">
+    <h1>Tony's Alpha blog</h1>
+    <h2>This site serves as an example project written in Ruby on Rails</h2>
+    <%= image_tag'rabbot.jpg'%><br/>
+    <%= link_to 'Sign up now', "#", class: "btn btn-danger btn-lg btn-xlarge" %>
+  </div>
+</div>
